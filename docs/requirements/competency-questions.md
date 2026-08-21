@@ -9,7 +9,7 @@ The table below lists the competency questions defined to describe the functiona
 The competency questions are used to guide the development of OntoGEM and to assess whether the ontology provides the concepts and relationships required to represent the knowledge necessary to answer them.
 
 | # | Competency Question | Topic | Explanation Type |
-| -: | --------------------------------------------------------------------------------------------------------------------------- | :---------------------: | :--------------------------------------: |
+|:-:| --- | :--- | :--- |
 | 1 | Which validation checks has the model passed? | Provenance - Model | Safety and Performance |
 | 2 | Which databases were used in this reconstruction? | Provenance - Model | Data |
 | 3 | Which tools were used during the reconstruction? | Provenance - Model | Trace Based |
