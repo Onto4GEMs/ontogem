@@ -4,7 +4,7 @@
 
 The following diagram provides a visual overview of the class hierarchy defined in OntoGEM.
 
-![OntoGEM Class Hierarchy](ontogem-class-hierarchy.png)
+![OntoGEM Class Hierarchy](figures/ontogem-class-hierarchy.png)
 
 OntoGEM classes are organized into three complementary modules, each representing a distinct conceptual perspective of genome-scale metabolic models:
 
@@ -84,7 +84,7 @@ This modularization separates **biological reality**, **model representation**, 
 | *person* | An agent that is a human individual responsible for creating, evaluating, or revising modeling decisions, annotations, or supporting evidence. | `ontogem: agent` | - | `prov:person` (included in `sepio`) |
 | *software agent* | An agent that is a computational system executing software to generate, infer, or apply modeling decisions or evidence. | `ontogem: agent` | - | `prov:software agent` (included in `sepio`) |
 | *organization* | An agent that is a collective entity, such as an institution or research group, responsible for producing, maintaining, or disseminating data, tools, or models. | `ontogem: agent` | - | `prov:organization` (included in `sepio`) |
-| *activity* | A reconstruction, curation, or evaluation process performed during the development, maintenance, or assessment of a genome-scale metabolic model. | `iao: information content entity` | - | `prov:activity` |
+| *activity* | A reconstruction, curation, or evaluation process performed during the development, maintenance, or assessment of a genome-scale metabolic model. | `bfo:process` | - | `prov:activity` |
 | *manual curation activity* | A reconstruction or curation activity in which modeling decisions are established primarily through human analysis and judgment. | `ontogem: activity` | - | - |
 | *literature curation activity* | A manual curation activity in which modeling decisions are established primarily through the interpretation of information reported in scientific or technical literature. | `ontogem: activity` | - | - |
 | *automatic reconstruction activity* | A reconstruction activity in which modeling decisions are generated primarily through automated computational procedures with minimal or no direct human intervention. | `ontogem: activity` | - | - |

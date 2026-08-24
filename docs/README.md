@@ -18,3 +18,4 @@ The `ontology-design/` directory documents the conceptual and formal design of O
 - [`classes.md`](ontology-design/classes.md) - Classes defined in OntoGEM, including their definitions, direct superclasses, rationales, and related ontology terms.
 - [`relationships.md`](ontology-design/relationships.md) - Relationships defined in OntoGEM, including their domains, ranges, inverses, cardinalities, definitions, and rationales.
 - [`attributes.md`](ontology-design/attributes.md) - Attributes defined in OntoGEM, including their domains, datatypes, requirements, definitions, and notes.
+- [`gpr-representation.md`](ontology-design/gpr-representation.md) - An example of a GPR rule from a real reaction represented in OntoGEM.

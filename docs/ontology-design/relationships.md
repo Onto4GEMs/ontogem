@@ -4,7 +4,7 @@
 
 The following diagram provides a visual overview of the relationships defined between OntoGEM classes.
 
-![OntoGEM Relationships](ontogem-relationships.png)
+![OntoGEM Relationships](figures/ontogem-relationships.png)
 
 The table below lists the relationships defined in OntoGEM.
 
